@@ -23,7 +23,7 @@
 .footer ul {
     display: grid;
     grid-template-columns: repeat(4, auto);
-    gap: 15px;
+    gap: 14px;
     list-style: none;
     padding: 0;
     margin-bottom: 30px;

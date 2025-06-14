@@ -54,7 +54,7 @@ const Login = () => {
               <input type="checkbox" />
               <label htmlFor="">Remember Me</label>
             </div>
-            <p>Neet Help?</p>
+            <p>Neet Help?</p> 
           </div>
         </form>
         <div className='form-switch'>

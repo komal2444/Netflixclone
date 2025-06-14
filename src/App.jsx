@@ -1,13 +1,13 @@
 import React, { useEffect } from "react"
 import { Routes,Route, useNavigate } from 'react-router-dom'
-import Login from "./pages/login/Login"
 import Home from "./pages/Home/Home"
+import Login from "./pages/login/Login"
 import Player from "./pages/Player/Player"
 import { onAuthStateChanged } from "firebase/auth"
 import {auth} from './firebase'
   // import React from 'react';
 
-  import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify';
 
 const App =() => {
 

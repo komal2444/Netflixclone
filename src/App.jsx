@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Routes, Route, useNavigate } from 'react-router-dom';
 import Home from "./pages/Home/Home";
-import Login from "./pages/login/Login";
+import Login from './pages/login/Login'
 import Player from "./pages/Player/Player";
 import { onAuthStateChanged } from "firebase/auth";
 import { auth } from './firebase';
